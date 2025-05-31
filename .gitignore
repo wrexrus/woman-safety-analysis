@@ -1,0 +1,44 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+env/
+.venv/
+ENV/
+venv/
+
+# Ignore model files
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.tflite
+
+# Ignore logs and TensorFlow temp files
+*.log
+events.out.*
+checkpoint
+*.index
+*.data-00000-of-00001
+
+# Ignore OS & editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore test results/output
+*.out
+*.tmp
+
+# Ignore dotenv files (secrets/configs)
+.env
+models
+
+# Ignore YOLO models
+*.pt
